@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.descr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+body img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.me {
+    display: flex; 
+}
+.descr-icon {
+    margin-left: 5px;
+}
+.card {
+    width: 300px;
+    border: 1px solid black;
+    min-height: 400px;
+    margin: 0 auto;
+    display: none;
+}
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.user-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.user-descr {
+    margin-left: 10px;
+}
+.view {
+    margin-top: 18px;
+}
+.view button {
+    display: block;
+    outline: none;
+    border: 1px solid blue;
+    width: calc(100% - 11px);
+    border-radius: 30px;
+    margin: 0 auto;
+    height: 20px;
+    color: blue;
+}
+ul {
+    list-style-type: none;
+}
+.settings {
+    padding-left: 10px;
+    margin-top: 15px;
+    border-top: 0.1px solid black;
+}
+.title, .try  {
+    font-size: 15px;
+    font-weight: 600;
+}
+.title, .try, ul, li, .log-out{
+    margin-top: 10px;
+}
+.try {
+    color: rgba(0, 0, 0, 0.7)
+}
+.log-out {
+    border-top: 0.1px solid black;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.active {
+    display: block;
+}
